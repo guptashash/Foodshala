@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+
+   background-color:black;
+}
+
+.item
+{
+    font-family: 'Alegreya', serif;
+    margin-top:15px;
+    color: white;
+    
+  
+
+}
+
+.item a{
+    text-decoration: none;
+    color:white;
+}
+
+h1,h2,p
+{
+    color: white;
+}
+
+header::before {
+    background: url('ml4.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.navigation {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.box
+{
+ 
+    height: 300px;
+    width:800px;
+    text-align:center;
+    margin-top: 50%;
+   
+    border-radius: 20px;
+}
+#ui
+{
+    height:100px;
+    width:100px;
+    filter:invert(100%);
+}
+#ref
+{
+
+    
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+
+
+}
+
+li {
+    list-style: none;
+    padding: 20px 23px;
+    cursor: pointer;
+}
+
+section {
+    height: 344px;
+    font-family: 'Bree Serif', serif;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+
+    margin: 10px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    font-size: 25px;
+    border-radius: 11px;
+    border: 4px solid black;
+    font-family: 'Alegreya', serif;
+    transition: all 2s ;
+
+    
+
+}
+
+.lrp
+{
+    left:300px;
+    color:white;
+    margin-top: 30%;
+    text-align: center;
+    
+}
+
+.bt
+{
+    margin: 10px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    font-size: 20px;
+    border-radius: 1px;
+    border: 2px solid white;
+    font-family: 'Alegreya', serif;
+    text-decoration-line: none;
+    text-decoration:none;
+    text-decoration-color: none;
+
+    
+
+
+}
+
+.bt:hover{
+    background-color:#ffc107;
+    color:black;
+    
+}
+
+
+.btn:hover {
+    background-color:#ffc107;
+    font-size: 40px;
+    color:black;
+}
+
+.bt1
+{
+
+    margin: 10px 9px;
+    background-color: #ffc107;
+    color:black;
+    padding: 3px 6px;
+    font-size: 20px;
+    border-radius: 1px;
+    border: 2px solid white;
+    font-family: 'Alegreya', serif;
+
+}
+
+
+footer {
+
+    text-align: center;
+    padding-top: 160px;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 20px;
+
+
+
+}
+
+
+    .fg::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.7;
+     
+    }
+    .fg{
+        
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .fg input, 
+    .fg textarea{
+        width: 300px;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+        margin:5px;
+    } 
+    
+    .fg form{
+        width: 40%;
+    }
+    
+    .fg label{
+       font-size: 1.3rem;
+       font-family: 'Bree Serif', serif;
+    
+    }
+
+    .b
+    {
+
+        margin-top: 40px;
+        color: black;
+        border:2px solid grey;
+        border-radius: 10px;
+        font-size:25px;
+    }
+
+    .b:hover
+    {
+        background-color:#ffc107;
+        font-weight: bold;
+    }
+
+#fp
+{
+    
+    margin-top: 10px;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
+footer
+{
+    color:white;
+   
+}
